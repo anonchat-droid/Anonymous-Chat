@@ -21,3 +21,11 @@ To use this project, you need to have Go installed. Then follow these steps:
    ```bash
    git clone <your-repository-URL>
    cd <repository-name>
+
+2. Install dependencies:
+```bash
+go get -u github.com/gorilla/websocket
+
+3. Run the server:
+```bash
+go run main.go
